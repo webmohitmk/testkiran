@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #24252a;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logo h2{
+    color: #fff;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    line-height: 1.4;
+   
+ 
+}
+nav ul li{
+    list-style-type: none;
+   
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* .btn-contact{
+    background: pink;
+} */
+
+.btn-contact a{
+    background: #0388aa;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px  15px;
+    border-radius: 20px;
+    line-height: 1.6;
+   
+}
